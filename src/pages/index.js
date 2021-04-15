@@ -14,7 +14,7 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<Section quarkly-title="Cover block" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6076c1326de461001eb86fa1/images/Frame%2022.png?v=2021-04-15T11:36:35.860Z) 0% 0% /auto repeat scroll padding-box" min-height="800px" padding="0 0 0 0">
+		<Section quarkly-title="Cover block" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6076c1326de461001eb86fa1/images/Frame%2022.png?v=2021-04-15T11:36:35.860Z) center/cover no-repeat scroll padding-box" min-height="800px" padding="0 0 0 0">
 			<Override
 				slot="SectionContent"
 				align-items="center"
