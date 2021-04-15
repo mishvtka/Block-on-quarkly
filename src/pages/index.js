@@ -138,6 +138,7 @@ export default (() => {
 				lg-margin="60px 0 0px 0"
 				lg-justify-content="center"
 				extraLg-margin="60px 0 0px 0"
+				justify-content="center"
 			>
 				{"    "}
 				<StackItem
@@ -308,7 +309,7 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Section quarkly-title="About block">
+		<Section quarkly-title="About block" padding="60px 0 60px 0">
 			<Stack extraLg-justify-content="center" flex-wrap="wrap" justify-content="space-between">
 				{"    "}
 				<StackItem display="flex" width="auto">
@@ -427,7 +428,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section quarkly-title="Adventages block">
+		<Section quarkly-title="Adventages block" padding="60px 0 60px 0">
 			<Override slot="SectionContent" align-items="center" />
 			<Text
 				font="bold 72px --fontFamily-googlePhilosopher"
