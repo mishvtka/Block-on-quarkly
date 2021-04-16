@@ -70,6 +70,10 @@ export default (() => {
 					background="#5B4FE3"
 					color="#ffffff"
 					sm-margin="0px 0 32px 0px"
+					transition="all 0.5s ease 0s"
+					hover-background="#fff"
+					hover-color="#5B4FE3"
+					hover-box-shadow="0 4px 20px 0 rgba(91, 79, 227, 0.45)"
 				>
 					Try for Free{"\n\n"}
 				</Button>
@@ -81,6 +85,10 @@ export default (() => {
 					background="#FFFFFF"
 					color="#5B4FE3"
 					box-shadow="0 4px 20px 0 rgba(91, 79, 227, 0.45)"
+					transition="all 0.5s ease 0s"
+					hover-box-shadow="0 4px 20px 0 rgba(91, 79, 227, 0)"
+					hover-color="#fff"
+					hover-background="#5B4FE3"
 				>
 					Book a Demo{"\n\n"}
 				</Button>
