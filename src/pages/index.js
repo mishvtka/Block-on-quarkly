@@ -91,10 +91,10 @@ export default (() => {
 					transition="all 0.5s ease 0s"
 					hover-box-shadow="0 4px 20px 0 rgba(91, 79, 227, 0.45)"
 					hover-color="#5B4FE3"
-					hover-background="#dddddd"
-					active-background="#e0dfdf"
+					active-background="#cecece"
 					active-color="#5B4FE3"
 					active-box-shadow="0 4px 20px 0 rgba(91, 79, 227, 0)"
+					hover-background="#dddddd"
 				>
 					Book a Demo{"\n\n"}
 				</Button>
